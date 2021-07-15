@@ -5,7 +5,7 @@ import mysql.connector
 import sshtunnel
 import json
 
-with open('./Desktop/ETL_Script/credential.json') as json_file:
+with open('/Users/ziyuli/Desktop/ziyu-h10/db_connect/db_connect/credential.txt') as json_file:
     credential = json.load(json_file)
 
 def db_connect_pgsql(database):
