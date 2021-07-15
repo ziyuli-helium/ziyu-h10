@@ -13,6 +13,6 @@ setuptools.setup(
         "Operating System :: OS Independent"
     ],
     packages=setuptools.find_packages(),
-    install_requires = ['boto3','pandas','psycopg2','mysql.connector','sshtunnel','json']
+    install_requires = ['boto3','pandas','psycopg2','mysql.connector','sshtunnel','json'],
     python_requires='>=3.6'
 )
